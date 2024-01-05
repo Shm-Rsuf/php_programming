@@ -1,7 +1,10 @@
 <?php 
-$fName = "Sir";
-$mName = "Isac";
-$lName = "Newton";
+// $fName = "Sir";
+// $mName = "Isac";
+// $lName = "Newton";
+
+// $output = sprintf("His name is %s %s %s",$fName, $mName, $lName); //sprintf returns value
+// printf("%s",strtoupper($output));
 
 // printf('His name is %2$s %1$s %3$s',$fName, $mName, $lName); //variable swaping printing
 // echo "\n";
