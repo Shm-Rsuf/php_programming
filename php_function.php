@@ -24,10 +24,10 @@
 // echo "The answer is : {$answer1} \n";
 // echo "The answer is : {$answer2} \n";
 
-function addNumbers(float $a, float $b) : float {
-  return $a + $b;
-}
-echo addNumbers(1.2, 5.2);
+// function addNumbers(float $a, float $b) : float {
+//   return $a + $b;
+// }
+// echo addNumbers(1.2, 5.2);
 
 
 
