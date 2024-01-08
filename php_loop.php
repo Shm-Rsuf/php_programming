@@ -1,5 +1,23 @@
 <?php 
 
+// $m = 1;
+// while ($m <= 5) {
+//   echo "{$m} \n";
+//   $m++;
+// }
+
+// echo "===== \n";
+
+/* Alternative of while loop syntax */
+
+// $n = 1;
+// while($n<=5):
+//   echo $n;
+//   echo PHP_EOL;
+//   $n++;
+
+// endwhile;
+
 // for ($i=1; $i <= 30; $i++) 
 // { 
 //   if($i % 2 == 0 && $i % 3 == 0 && $i % 4 == 0)
