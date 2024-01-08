@@ -1,20 +1,20 @@
 <?php 
-$myName = "usuf ali";
+// $myName = "usuf ali";
 
-function printName(){
+// function printName(){
   // global $myName; // not prefarable
   // echo $GLOBALS["myName"];
-}
+// }
 
 // printName();
 
-function localScope(){
-  $myName = "shm rsuf";
-  echo "{$myName} \n";
-}
+// function localScope(){
+//   $myName = "shm rsuf";
+//   echo "{$myName} \n";
+// }
 
-localScope();
-echo $GLOBALS["myName"];
+// localScope();
+// echo $GLOBALS["myName"];
 
 
 ?>
