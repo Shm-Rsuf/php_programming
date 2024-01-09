@@ -1,17 +1,29 @@
 <?php
 
-// $numbers = array(1, 3, 5, 7, 9);
-// echo count($numbers);
+$students = array("Atik", "Jony", "Arif");
 
-// function example:
-// function myFunction() {
-  // echo "This text comes from a function";
-// }
+// array_push = set an element to last index
+// array_push($students, "Alia", "Mitu");
+// $students[count($students)]="Momin";
+// $students[count($students)]="Messi";
 
-// create array:
-// $myArr = array("Volvo", 15, ["apples", "bananas"], myFunction);
+// array_pop = remove an element from the last index
+// $studentName1 = array_pop($students);
+// $studentName2 = array_pop($students);
 
-// calling the function from the array item:
-// $myArr[3]();
+// array_unshift = set an element to first index
+// array_unshift($students, "Rumi", "Rafi", "usuf");
+
+// array_shift = remove an element from the first index
+// $studentName3 = array_shift($students);
+// $studentName4 = array_shift($students);
+
+// $len = count($students);
+
+// for ($i=0; $i < $len; $i++) { 
+//   echo $i+1 . "-> " . $students[$i] . "\n";
+// };
+
+
 
 ?>
