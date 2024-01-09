@@ -72,11 +72,11 @@
 
 // echo $students["drinks"];
 
-$foods = [
-  "vegetables" => "brinjal, carrot, cucumber",
-  "fruits" => "apple, banana",
-  "drinks" => "water, milk",
-];
+// $foods = [
+//   "vegetables" => "brinjal, carrot, cucumber",
+//   "fruits" => "apple, banana",
+//   "drinks" => "water, milk",
+// ];
 
 // echo $foods["drinks"];
 // foreach ($foods as $key => $value) {
@@ -93,6 +93,71 @@ $foods = [
 // foreach ($values as $value) {
 //   echo $value . "\n";
 // }
+
+/* Sorting Arrays */
+$fruits = ["lemon", "orange", "banana", "apple"];
+
+// sorted by ascending ordered
+
+// sort($fruits);
+// $len = count($fruits);
+
+// for ($i=0; $i < $len; $i++) { 
+//   echo $fruits[$i]. "\n";
+// };
+
+// echo "========== \n";
+
+// for ($i=0; $i < $len; $i++) { 
+//   echo $fruits[$i]. "\n";
+// };
+
+// sorted by descending ordered
+
+//  rsort($fruits);
+
+// $len = count($fruits);
+
+// for ($i=0; $i < $len; $i++) { 
+//   echo $fruits[$i]. "\n";
+// };
+
+// echo "========== \n";
+
+// for ($i=0; $i < $len; $i++) { 
+//   echo $fruits[$i]. "\n";
+// };
+
+// sorted associated array ascending ordered acording to the value
+// $fruits = ["1" => "lemon", "2" => "orange", "3" => "banana", "4" => "apple"];
+
+//  asort($fruits);
+
+// foreach ($fruits as $key => $value) {
+//   echo "fruit[" . $key . "]" . " = " . $value . "\n";
+// }
+
+// echo "========== \n";
+
+// foreach ($fruits as $key => $value) {
+//   echo "fruit[" . $key . "]" . " = " . $value . "\n";
+// }
+
+// sorted associated array descending ordered acording to the key
+// $fruits = ["1" => "lemon", "2" => "orange", "3" => "banana", "4" => "apple"];
+
+//  ksort($fruits);
+
+// foreach ($fruits as $key => $value) {
+//   echo "fruit[" . $key . "]" . " = " . $value . "\n";
+// }
+
+// echo "========== \n";
+
+// foreach ($fruits as $key => $value) {
+//   echo "fruit[" . $key . "]" . " = " . $value . "\n";
+// }
+
 
 
 ?>
