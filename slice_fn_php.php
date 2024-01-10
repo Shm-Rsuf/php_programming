@@ -1,5 +1,5 @@
 <?php 
-$fruits = ["banana", "apple", "pinaple", "orange", "mango"];
+// $fruits = ["banana", "apple", "pinaple", "orange", "mango"];
 
 // $fruit = array_slice($fruits,-3,-1);
 // $fruit = array_slice($fruits,2, -1);
