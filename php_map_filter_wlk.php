@@ -1,11 +1,16 @@
 <?php 
-// $numbers = array(1, 2, 3, 4, 5);
+$numbers = array(1, 2, 3, 4, 5, 6);
 
-// function isCondition($n){
-//   return $n >= 3;
+function isEven($n){
+  return $n % 2 == 0;
+}
+
+// function isOdd($n){
+//   return $n % 2 == 1;
 // }
 
-// $fArr = array_filter($numbers,'isCondition');
+// $fArr = array_filter($numbers,'isEven');
+// $fArr = array_filter($numbers,'isOdd');
 // print_r($fArr);
 
 // function cube($number){
