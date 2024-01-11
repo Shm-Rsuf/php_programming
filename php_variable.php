@@ -1,5 +1,6 @@
 <?php 
-
+// $price = 4.99;
+// echo "your 'pizza' is : \${$price}";
 // $myName = "usuf ali";
 
 // echo "My name is $myName";
