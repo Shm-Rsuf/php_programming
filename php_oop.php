@@ -58,6 +58,33 @@
 
 // echo $apple->name;
 
+// constructor function in php
+// class Person{
+//   public $name;
+//   public $age;
+
+//   function __construct($personName, $personAge = 0)
+//   {
+//     $this->name = $personName;
+//     $this->age = $personAge;
+//   }
+
+//   function personInfo(){
+//     if($this->age){
+//       echo "My name is {$this->name} and I'm {$this->age} years old\n";
+//     }else{
+//       echo "My name is {$this->name} and I don't know how old I am\n";
+//     }
+//   }
+// }
+
+// $arif = new Person("Arif",26);
+// $jony = new Person("Jony",25);
+// $rakhi = new Person("rakhi");
+
+// $arif->personInfo();
+// $jony->personInfo();
+// $rakhi->personInfo();
 
 
 
