@@ -113,59 +113,61 @@
 // $ourFund = new Fund(100);
 // $ourFund->total();
 
-class RGB{  
-  private $color;
-  private $red;
-  private $green;
-  private $blue;
+// class RGB{  
+//   private $color;
+//   private $red;
+//   private $green;
+//   private $blue;
 
-  function __construct($colorCode = '')
-  {
-   $this->color = ltrim($colorCode,"#");
-   $this->parseColor();
-  }
+//   function __construct($colorCode = '')
+//   {
+//    $this->color = ltrim($colorCode,"#");
+//    $this->parseColor();
+//   }
 
-  function getColor(){
-    return $this->color;
-  }
+//   function getColor(){
+//     return $this->color;
+//   }
 
-  function getRGBColor(){
-    return array($this->red, $this->green, $this->blue);
-  }
+//   function getRGBColor(){
+//     return array($this->red, $this->green, $this->blue);
+//   }
 
-  function readRGBColor(){
-    echo "red = {$this->red}\ngreen = {$this->green}\nblue = {$this->blue}";
-  }
+//   function readRGBColor(){
+//     echo "red = {$this->red}\ngreen = {$this->green}\nblue = {$this->blue}";
+//   }
 
-  function setColor($colorCode){
-    $this->color = ltrim($colorCode,"#");
-    $this->parseColor();
-  }
+//   function setColor($colorCode){
+//     $this->color = ltrim($colorCode,"#");
+//     $this->parseColor();
+//   }
 
-  private function parseColor(){
-    if($this->color){
-      list($this->red, $this->green, $this->blue) = sscanf($this->color,"%02x%02x%02x");
-    }else{
-      list($this->red, $this->green, $this->blue) = array(0, 0, 0);
-    }
-  }
+//   private function parseColor(){
+//     if($this->color){
+//       list($this->red, $this->green, $this->blue) = sscanf($this->color,"%02x%02x%02x");
+//     }else{
+//       list($this->red, $this->green, $this->blue) = array(0, 0, 0);
+//     }
+//   }
 
-  function getRed(){
-    return $this->red;
-  }
+//   function getRed(){
+//     return "red = " . $this->red;
+//   }
 
-  function getGreen(){
-    return $this->green;
-  }
+//   function getGreen(){
+//     return "green = " . $this->green;
+//   }
 
-  function getBlue(){
-    return $this->blue;
-  }
+//   function getBlue(){
+//     return "blue = " . $this->blue;
+//   }
 
-}
+// }
 
-$ourColor = new RGB("#2f4e50");
-$ourColor->readRGBColor();
+// $ourColor = new RGB("#2f4e50");
+// $ourColor->readRGBColor();
+// echo PHP_EOL;
+// echo $ourColor->getRed();
 
 
 ?>
