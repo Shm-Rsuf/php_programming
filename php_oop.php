@@ -86,6 +86,32 @@
 // $jony->personInfo();
 // $rakhi->personInfo();
 
+// public, private and protected keys in php
+
+// class Fund{
+//   private $fund;
+
+//   function __construct($initialFund = 0){
+//     $this->fund = $initialFund;
+//   }
+
+//    function addFund($money){
+//     $this->fund += $money;
+//   }
+
+//    function deductFund($money){
+//     $this->fund -= $money;
+//   }
+
+//    function total(){
+//     echo "Total fund is {$this->fund}\n";
+//   }
+
+
+// }
+
+// $ourFund = new Fund(100);
+// $ourFund->total();
 
 
 ?>
