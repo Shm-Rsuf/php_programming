@@ -251,4 +251,33 @@
 // $audi = new Audi("Audi");
 // echo $audi->intro();
 
+
+//parent class
+// abstract class ParentClass{
+// // Abstract method with an argument
+// abstract public function prefixName($name);
+
+// }
+
+// //child class
+// class ChildClass extends ParentClass{
+//   public function prefixName($name)
+//   {
+//     if($name == "John Doe"){
+//       $prefix = "Mr.";
+//     }else if($name == "Jane Doe"){
+//       $prefix = "Mrs.";
+//     }else{
+//       $prefix = "";
+//     }
+
+//     return "{$prefix} {$name}\n";
+//   }
+// }
+
+// $class = new ChildClass();
+// echo $class->prefixName("John Doe");
+// echo $class->prefixName("Jane Doe");
+// echo $class->prefixName("Jane doe");
+
 ?>
