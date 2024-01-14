@@ -75,5 +75,50 @@
 // echo PHP_EOL;
 // echo Pi::$piValue;
 
+// class Student{
+//   private $name;
+//   private $class;
+
+//   function __construct($name = '', $class = '')
+//   {
+//     $this->name = $name;
+//     $this->class = $class;
+//   }
+
+//   public function __get($props)
+//   {
+//     return $this->$props;
+//   }
+
+//   public function __set($props, $value)
+//   {
+//     $this->$props = strtoupper($value);
+//   }
+
+  // function setName($name){
+  //   $this->name = $name;
+  // }
+
+  // function getName(){
+  //   return $this->name;
+  // }
+
+  // function setClass($class){
+  //   $this->class = $class;
+  // }
+
+  // function getClass(){
+  //   return $this->class;
+  // }
+
+  
+}
+
+
+// $s1 = new Student();
+// $s1->name="usuf";
+// echo $s1->name;
+
+
 
 ?>
