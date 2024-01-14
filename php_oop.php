@@ -169,5 +169,22 @@
 // echo PHP_EOL;
 // echo $ourColor->getRed();
 
+// extends to child class from parent class
+// class Fruit{
+//   public $name, $color;
+
+//   public function __construct($name, $color)
+//   {
+//     $this->name = $name;
+//     $this->color = $color;
+//   }
+// }
+
+// $apple = new Fruit("apple","red");
+
+// printf("The value is %s\n",$apple->name);
+// var_dump($apple->name);
+// print_r($apple->color);
+
 
 ?>
