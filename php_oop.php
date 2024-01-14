@@ -186,5 +186,69 @@
 // var_dump($apple->name);
 // print_r($apple->color);
 
+//Abstract class and method
+// abstract class Shape{
+//   abstract function getArea();
+//   abstract function getPeriMeter();
+// }
+
+// class Rectangle extends Shape{
+//   private $base, $height;
+
+//   function __construct($base, $height)
+//   {
+//     $this->base = $base;
+//     $this->height = $height;
+//   }
+
+//   public function setBase($base){
+//     return $this->base = $base;
+//   }
+
+//   public function setHeight($height){
+//     return $this->height = $height;
+//   }
+
+//   function getArea(){
+//     echo $this->base * $this->height;
+//     echo PHP_EOL;
+//   }
+
+//   function getPeriMeter(){
+//     echo "I am implemented\n";
+//   }
+
+// }
+
+// $rectangle = new Rectangle(10, 20);
+// $rectangle->getArea();
+// $rectangle->getPeriMeter();
+
+/* Abstract Classes and Methods in Php */
+// Parent class
+// abstract class Car{
+//   public $name;
+
+//   function __construct($name)
+//   {
+//     $this->name = $name;
+//   }
+
+//   abstract public function intro() : string ;
+// }
+
+// // Child classes
+// class Audi extends Car{
+
+//   public function intro() : string {
+//     return "Choose German quality! I'm an $this->name!\n";
+    
+//   }
+
+// }
+
+// // Create objects from the child classes
+// $audi = new Audi("Audi");
+// echo $audi->intro();
 
 ?>
