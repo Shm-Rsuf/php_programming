@@ -66,7 +66,28 @@
 // print_r($f2);
 
 
+// class Color{
+//   public $color;
 
+//   public function __construct($color)
+//   {
+//     $this->color = $color;
+//   }
+
+//   public function setColor($color){
+//     $this->color = $color;
+//   }
+//   function __toString()
+//   {
+//     return $this->color;
+//   }
+// }
+
+// $red = new Color("red");
+// $green = new Color("green");
+
+// echo "This color is {$red}\n";
+// echo "This color is {$green}\n";
 
 
 
