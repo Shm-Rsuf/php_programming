@@ -1,22 +1,22 @@
 <?php 
-class Planet{
-  static function echoName(){
-    echo static::getName();
-  }
+// class Planet{
+//   static function echoName(){
+//     echo static::getName();
+//   }
 
-  static function getName(){
-    return "Planet\n";
-  }
-}
+//   static function getName(){
+//     return "Planet\n";
+//   }
+// }
 
-class Earth extends Planet{
-  static function getName(){
-    return "Earth\n";
-  }
-}
+// class Earth extends Planet{
+//   static function getName(){
+//     return "Earth\n";
+//   }
+// }
 
-Planet::echoName();
-Earth::echoName();
+// Planet::echoName();
+// Earth::echoName();
 
 
 
