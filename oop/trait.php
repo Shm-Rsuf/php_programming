@@ -58,6 +58,37 @@
 // $hi->sayHi();
 // $hi->sayBye();
 
+/* trait property overriding */
+// trait greet{
+//   public function welcome(){
+//     echo "I am from greet trait\n";
+//   }
+// }
+
+// trait greet2{
+//   public function welcome(){
+//     echo "I am from greet2 trait\n";
+//   }
+// }
+
+// class Test{
+//   use greet,greet2{
+//     greet:: welcome insteadOf greet2;
+//   }
+  
+// }
+
+// class newTest extends Test{
+//   use greet;
+//   public function welcome()
+//   {
+//     echo "I am from class new test\n";
+//   }
+// }
+
+// $c1 = new Test();
+
+// $c1->welcome();
 
 
 
