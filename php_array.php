@@ -1,15 +1,22 @@
 <?php
 
-// $students = array("Atik", "Jony", "Arif");
+// $students = array("Atik", "Jony", "Arif", "Alia", "Mitu");
 
 // array_push = set an element to last index
 // array_push($students, "Alia", "Mitu");
 // $students[count($students)]="Momin";
 // $students[count($students)]="Messi";
 
+// $lastEl = $students[count($students)-1];
+// echo "Last El = {$lastEl}\n";
+
+// print_r($students);
+
 // array_pop = remove an element from the last index
-// $studentName1 = array_pop($students);
-// $studentName2 = array_pop($students);
+// $popEl1 = array_pop($students);
+// $popEl2 = array_pop($students);
+
+// echo "popEl1 = {$popEl1}\npopEl2 = {$popEl2}\n";
 
 // array_unshift = set an element to first index
 // array_unshift($students, "Rumi", "Rafi", "usuf");
@@ -17,26 +24,23 @@
 // array_shift = remove an element from the first index
 // $studentName3 = array_shift($students);
 // $studentName4 = array_shift($students);
+/* ===================================== */
+// $students = array("Atik", "Jony", "Arif", "Alia", "Mitu");
 
-// $len = count($students);
+// $len = count($students); // count fn array er length count kore
 
 // for ($i=0; $i < $len; $i++) { 
-//   echo $i+1 . "-> " . $students[$i] . "\n";
+//   echo $i+1 . " -> " . $students[$i] . "\n";
 // };
 
 /* Associative Arrays In Php */
-// $car = array(
-//   "brand"=>"Ford",
-//   "model"=>"Mustang",
-//   "year"=>1964
-// );
-
-// to change the value of associative array in php
+$car = [ "brand"=>"Ford", "model"=>"Mustang", "year"=>1964];
+/* to change the value of associative array in php */
 // $car["year"]= 1990;
 // $car["brand"]="Lamborghini";
 
-// echo var_dump($car);
-// echo var_dump($car["year"] ? "Hello" : "null");
+// var_dump($car); // var_dump data type bole dey
+  // var_dump( null ?? "Hello"); //shudhu "null" hole dane jabe
 // echo $car["year"] . "\n";
 // echo $car["brand"];
 
@@ -72,11 +76,11 @@
 
 // echo $students["drinks"];
 
-// $foods = [
-//   "vegetables" => "brinjal, carrot, cucumber",
-//   "fruits" => "apple, banana",
-//   "drinks" => "water, milk",
-// ];
+$foods = [
+  "vegetables" => "brinjal, carrot, cucumber",
+  "fruits" => "apple, banana",
+  "drinks" => "water, milk",
+];
 
 // echo $foods["drinks"];
 // foreach ($foods as $key => $value) {
