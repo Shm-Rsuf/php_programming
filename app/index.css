@@ -5,10 +5,41 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  margin-top: 50px;
+}
+
+.container {
+  width: 50vw;
+  height: auto;
+  margin: 0px auto;
+}
+
+.form-control {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  gap: 5px;
+}
+
+input {
+  padding: 5px 3px;
+  outline: none;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+input:focus {
+  border-color: blue;
+}
+
+.form-btn {
+  width: 100px;
+  padding: 8px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid black;
 }

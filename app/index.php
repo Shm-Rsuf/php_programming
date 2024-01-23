@@ -7,16 +7,36 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <form action="index.php" method="post">
-      <label for="name">Name:</label>
-      <input type="text" name="name" value=<?php ?>><br>
+    <div class="container">
+    <form action="./index.php" method="POST">
 
-      <label for="email">E-mail:</label>
-      <input type="text" name="email"><br>
-      <input type="submit">
+    <div style="display:flex; flex-direction:column; gap: 10px">
+    <div class="form-control">
+    <label for="fname">First Name :</label>
+    <input type="text" name="fname" id="fname">
+    </div>
+
+    <div class="form-control">
+    <label for="lname">Last Name :</label>
+    <input type="text" name="lname" id="lname">
+    </div>
+
+    <button type="submit" class="form-btn">Submit</button>
+    </div>
+
     </form>
 
-    Welcome <?php echo $_POST["name"]; ?><br>
-    Your email address is: <?php echo $_POST["email"]; ?>
+    <div style="margin-top: 50px;">
+        <p>
+          <?php if(isset($_POST['fname']) && !empty($_POST['fname'])):?>
+          first name : <?php echo $_POST['fname']; ?><br/>
+          <?php endif;?>
+          <?php if(isset($_POST['lname']) && !empty($_POST['lname'])):?>
+          last name : <?php echo $_POST['lname']; ?>
+          <?php endif ?>
+        </p>
+    </div>
+    </div>
+
 </body>
 </html>
