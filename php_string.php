@@ -25,14 +25,25 @@
 // echo $str;
 
 /* Accessing charecter within a string in php */
-// $str = "  hello world.How are you!   ,,";
-// echo trim($str, ',');
+// $str = "  hello world.How are you!   ";
+// echo trim($str);
 
 // $newStr = str_ireplace("world", "bangladesh", $str, $count);
 
 // echo $newStr;
 // echo PHP_EOL;
 // echo $count;
+
+// $keywords = preg_split("/[\s,]+/", "hypertext language, programming,php");
+
+// $len = count($keywords);
+
+// for ($i=0; $i < $len; $i++) { 
+//   print_r($keywords[$i]);
+//   echo "\n";
+// }
+
+
 
 // $result_array = preg_split( "/[ |,]/", $str );
 // $len = count($result_array);
