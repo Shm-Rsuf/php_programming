@@ -1,10 +1,10 @@
 <?php 
-$student = [
-  "fName" => "john",
-  "lName" => "doe",
-  "age" =>20,
-  "section" => "B"
-];
+// $student = [
+//   "fName" => "john",
+//   "lName" => "doe",
+//   "age" =>20,
+//   "section" => "B"
+// ];
 
 // print_r($student);
 // echo $student["fName"] . " " . $student["lName"] . "\n";

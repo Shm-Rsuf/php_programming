@@ -34,7 +34,7 @@
 // };
 
 /* Associative Arrays In Php */
-$car = [ "brand"=>"Ford", "model"=>"Mustang", "year"=>1964];
+// $car = [ "brand"=>"Ford", "model"=>"Mustang", "year"=>1964];
 /* to change the value of associative array in php */
 // $car["year"]= 1990;
 // $car["brand"]="Lamborghini";
@@ -76,11 +76,16 @@ $car = [ "brand"=>"Ford", "model"=>"Mustang", "year"=>1964];
 
 // echo $students["drinks"];
 
-$foods = [
-  "vegetables" => "brinjal, carrot, cucumber",
-  "fruits" => "apple, banana",
-  "drinks" => "water, milk",
-];
+// $foods = [
+//   "vegetables" => "brinjal, carrot, cucumber",
+//   "fruits" => "apple, banana",
+//   "drinks" => "water, milk",
+// ];
+
+// $foods['drinks'] = $foods['drinks'] . ", orange juice, milk sheik";
+// $foods['drinks'] .= ", orange juice, milk sheik";
+
+// print_r($foods);
 
 // echo $foods["drinks"];
 // foreach ($foods as $key => $value) {
@@ -99,7 +104,7 @@ $foods = [
 // }
 
 /* Sorting Arrays */
-$fruits = ["lemon", "orange", "banana", "apple"];
+// $fruits = ["lemon", "orange", "banana", "apple"];
 
 // sorted by ascending ordered
 
